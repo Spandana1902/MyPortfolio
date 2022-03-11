@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-margin: 50px;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    width: 100%;
+    position: fixed;
+    top: 10;
+    bottom: 10;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(180, 32, 238));
+    padding: 0 !important;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+} 
+.navbar-brand img{
+    height: 60px;
+    padding-left: 40px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    display: inline-block;
+    position: relative;
+}
+.navbar-nav li a::after{
+    content: '';
+    height: 0px;
+    width: 100%;
+    background-color: rgb(234, 130, 255);
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    transition: 0.3s;
+    z-index: 11;
+}
+.navbar-nav li a:hover::after{
+    height: 3px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler img{
+    height: 20px;
+}
+/* BANNER SECTION*/
+#banner{
+    /*background-image: linear-gradient(to right, rgb(0,0,0), rgb(124,3,172));*/
+    background-image: url("images/hp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 5%;
+}
+#banner img{
+    animation-duration: 3s;
+    animation-name: bounceIn;
+}
+
+.quote{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    animation-duration: 3s;
+    animation-name: bounceIn;
+}
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.bottom-img{
+    width: 100%;
+    height: 220px;
+    margin-bottom: -1px;
+}
+
+/*ABOUT section*/
+#about{
+    padding: 30px;
+}
+#about img{
+    padding: 30px;
+    width: 400px;
+}
+#about p{
+    padding-left: 90px;
+    padding-top: 120px;
+    padding-right: 50px;
+}
+/* PROJECT SECTION*/
+.project-img{
+    width: 240px;
+    height: 150px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+    border-radius: 20px;
+    position: relative;
+}
+.project-img:hover{
+    width: 260px;
+    height: 160px;
+}
+#project{
+    padding: 30px;
+}
+#project h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#project p{
+    color: rgb(109, 108, 108);
+}
+.title::before{
+    content: '';
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(180, 32, 238));;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(60px);
+}
+/*SKILL SECTION*/
+.skill-img{
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+#skill{
+    padding: 30px;
+}
+/* education section*/
+#education{
+    padding: 30px;
+}
+.edu-img{
+    padding: 10px;
+    width: 170px;
+    margin-top: 20px
+}
+/* certification section*/
+#course{
+    padding: 30px;
+}
+
+/*contact section*/
+#contact{
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(180, 32, 238));
+    padding: 100px 0;
+}
+#contact p{
+    color: white;
+    font-weight: 500px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.contact-img{
+    width: 120%;
+    margin-top: -102px;
+    margin-left: -150px;
+}
+.social-icons img{
+    width: 60px;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/*footer section*/
+#footer{
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(180, 32, 238));
+    color: white;
+}
+#footer a{
+    color: white;
+    transition: 0.7s ease-in-out;
+}
+#footer a:hover{
+    font-weight: bolder;
+}
+.footer-box{
+    padding-left: 20px;
+}
+.footer-box p{
+    font-weight: 400px;
+}
+.footer-box img{
+    width:  70px;
+    margin-bottom: 20px;
+}
+hr{
+    background-color: white;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+/*different page*/
+#pro_img img{
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 2px black dashed;
+    width: 60%;
+    margin: auto;
+    padding-top: 75px;
+}
+#pro_img p{
+    font-size: 20px;
+}
+
+/*TRIAL ANIMATION*/
