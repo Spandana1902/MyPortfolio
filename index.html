@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo_edit.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">   
+          <img src="images/HAM.png">     
+          </button>
+          <div id="navbarNav"><!--if class is added here, ml-auto doesn't work & navbar stays in left-->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#top">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">LEARNING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+<!--banner section-->
+<section id="banner">
+    <div class="container text-center">
+      <p class="quote">"Happiness can be found, even in the darkest of times,<br>
+        if one only remembers to turn on the light."</p>
+    </div>
+    <img src="Wave1.png" class="bottom-img">
+</section>
+<!--about section-->
+<section id="about">
+  <div class="container">
+    <h1 class="title text-center">ABOUT ME</h1>
+  </div>
+  <div class="row">
+  <div class="col-md-3">
+    <img src="spandy.png"><!--or use me2.png-->
+  </div>
+  <div class="col-md-9">
+    <p>Hey! I'm K. SPANDANA SHREE, a B-Tech student from ECE Department of SRM University, Chennai.<br>
+      I was born in Delhi and raised in Kolkata.<br><br>
+      I like to experience the world of fiction.
+      I believe reading gives you a new perspective to everything.<br>
+      You get to know a lot about different worlds, half real, half imaginary and simply beautiful.<br>
+      You start appreciating the small unique things each person has to offer.<br>
+      <br>I hope to pursue a challenging career with full dedication and bring forth my efficiency to the fullest<br>
+      in a professional framework environment wherein I can discover my potential.</p>
+  </div>
+  </div>
+</section>
+<!--projects section--><!--set number of columns & rows according to number of projects
+THIS SECTION CAN ALSO BE NAMED AS ACCOMPLISHMENTS-->>
+<section id="project">
+<div class="container text-center">
+  <h1 class="title">MY PROJECTS</h1>
+  <div class="row text-center">
+    <div class="col-md-4 project">
+      <a href="to-do.html"><img src="images/todo.png" class="project-img"></a>
+      <h6>TO-DO LIST</h6>
+      <p><i>HTML | CSS | JS</i></p>
+    </div>
+    <div class="col-md-4 project">
+      <a href="color.html"><img src="images/colour-game.jpg" class="project-img"></a>
+      <h6>COLOUR GAME</h6>
+      <p><i>Python</i></p>
+    </div>
+    <div class="col-md-4 project">
+      <a href="calc.html"><img src="images/calc.png" class="project-img"></a>
+      <h6>CALCULATOR</h6>
+      <p><i>HTML | CSS | JS</i></p>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4 project">
+      <a href="clock.html"><img src="images/clk.jpg" class="project-img"></a>
+      <h6>DIGITAL CLOCK</h6>
+      <p><i>HTML | CSS | JS</i></p>
+    </div>
+    <div class="col-md-4 project">
+      <a href="stud.html"><img src="images/data_management.jpg" class="project-img"></a>
+      <h6>STUDENT DATA MANAGEMENT</h6>
+      <p><i>C++</i></p>
+    </div>
+    <div class="col-md-4 project">
+      <a href="quote.html"><img src="images/RQG.jpeg" class="project-img"></a>
+      <h6>QUOTE GENERATOR</h6>
+      <p><i>HTML | CSS | JS</i></p>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4 project">
+      <a href="comp.html"><img src="images/stock.jpg" class="project-img"></a>
+        <h6>STOCK COMPARATOR</h6>
+        <p><i>Python</i></p>
+    </div>
+    <div class="col-md-4 project">
+      <a href="flappy.html"><img src="images/flappy_green.jpg" class="project-img"></a>
+      <h6>FLAPPY BIRD GAME</h6>
+      <p><i>Python</i></p>
+    </div>
+    <div class="col-md-4 project">
+      <a href="converter.html"><img src="images/map.jpg" class="project-img"></a>
+      <h6>DISTANCE CONVERTER</h6>
+      <p><i>HTML | CSS | JS</i></p>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4 project">
+    </div>
+    <div class="col-md-4 project">
+      <a href="vacay.html"><img src="images/travel_2.jpg" class="project-img"></a>
+        <h6>VACATION WISHLIST</h6>
+        <p><i>HTML | CSS | JS</i></p>
+    </div>
+    <div class="col-md-4 project">
+    </div>
+  </div>
+</div>
+</section>
+<!--skill section-->
+<section id="skill">
+  <div class="container text-center">
+    <h1 class="title">MY SKILLS</h1>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4 skill">
+        <img src="images/web.jpg" class="skill-img">
+        <h6>Web Developer</h6>
+        <p>Basic knowledge of<br>HTML, CSS & Javascript</p>
+    </div>
+    <div class="col-md-4 skill">
+        <img src="images/problem.jpg" class="skill-img">
+        <h6>Clean & efficient work</h6>
+        <p>Self motivated,<br>Positive approach and<br>acceptable problem solving skills</p>
+    </div>
+    <div class="col-md-4 skill">
+        <img src="images/code.jpg" class="skill-img">
+        <h6>Programmer</h6>
+        <p>Friends with<br>C, C++ and Python</p>
+    </div>
+  </div>
+<!-- EDUCATION SECTION -->
+<section id="education">
+  <div class="container text-center">
+    <h1 class="title">MY EDUCATION</h1>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4 skill">
+        <img src="images/srm.png" class="edu-img">
+        <h6>B. Tech 2019-2023</h6>
+        <p>SRM Institute of Science & Technology<br>
+          B.Tech - Electronics and Computer Engineering<br>
+          Chennai, India<br>CGPA – 9.92 (till 4th semester)
+        </p>
+    </div>
+    <div class="col-md-4 skill">
+        <img src="images/ashok.png" class="edu-img">
+        <h6>AISSCE 2019</h6>
+        <p>Ashok Hall Girls' Higher Secondary School<br>
+        Kolkata, India<br>PCM - 95.3%</p>
+    </div>
+    <div class="col-md-4 skill">
+        <img src="images/ashok.png" class="edu-img">
+        <h6>AISSE 2017</h6>
+        <p>Ashok Hall Girls' Higher Secondary School<br>
+          Kolkata, India<br></p>
+    </div>
+  </div>
+</section>
+<!-- certification section -->
+<section id="certification">
+  <div class="container text-center">
+    <h1 class="title">MY CERTIFICATIONS</h1>
+    <div class="row text-center">
+      <div class="col-md-4 project">
+        <a href="images/python_specialization.pdf" download><img src="images/coursera.jpg" class="project-img"></a>
+        <h6>•	Python for everybody (Specialization)</h6>
+        <p><i>~University of Michigan</i></p>
+      </div>
+      <div class="col-md-4 project">
+        <a href="images/wireless_comm.pdf" download><img src="images/coursera.jpg" class="project-img"></a>
+        <h6>•	Wireless Communication for Everybody</h6>
+        <p><i>~Yonsei University</i></p>
+      </div>
+      <div class="col-md-4 project">
+        <a href="images/JS1_coursera.pdf"><img src="images/coursera.jpg" class="project-img"></a>
+        <h6>• JavaScript Basics</h6>
+        <p><i>~University of California, Davis</i></p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4 project">
+      </div>
+      <div class="col-md-4 project">
+        <a href="images/SQL_coursera.pdf" download><img src="images/coursera.jpg" class="project-img"></a>
+        <h6>•	SQL for Data Science</h6>
+        <p><i>~University of California, Davis</i></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--contacts section-->
+<section id="contact">
+  <div class="container text-center">
+    <img src="images/Wave.png" class="contact-img">
+    <p>GET IN TOUCH WITH ME</p>
+  <div class="social-icons">
+    <a href="https://github.com/Spandana1902"><img src="images/git.jpg"></a>
+    <a href="https://www.linkedin.com/in/spandana-shree-328986214/"><img src="images/linkedin.png"></a>
+  </div>
+  </div>
+</section>
+<!--footer-->
+<section id="footer">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4 footer-box text-center">
+    <img src="images/logo_edit.png">
+    <p>K. SPANDANA SHREE</p>
+  </div>
+  <div class="col-md-4 footer-box text-center">
+    <p><a href="RESUME.docx" download><img src="images/down-removebg-preview.png"></p></a>
+    <p><a href="RESUME.docx" download>My Resume</a></p>
+  </div>
+  <div class="col-md-4 footer-box text-center">
+    <a href = "mailto: spandanashree1902@gmail.com"><p><img src="images/email-removebg-preview.png"></p></a>
+    <a href = "mailto: spandanashree1902@gmail.com"><p>spandanashree1902@gmail.com</p></a>
+  </div>
+  </div>
+  <hr>
+  <p class="copyright">Website created by K.Spandana Shree</p>
+  </div>
+</section>
+<!--smooth scroll-->
+<script src="smooth-scroll.js">
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</script>
+</body>
+</html>
